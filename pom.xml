@@ -15,7 +15,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <crowdar.cucumber.filter>@Demo</crowdar.cucumber.filter>
+        <crowdar.cucumber.filter>@SmokeTravel</crowdar.cucumber.filter>
         <cucumber.runner>testngParallel.xml</cucumber.runner>
         <crowdar.extent.report.path>cucumber-reports</crowdar.extent.report.path>
         <crowdar.extent.report.name>CucumberExampleReport</crowdar.extent.report.name>
@@ -58,7 +58,7 @@
                 <crowdar.extent.host.name>Stack</crowdar.extent.host.name>
                 <crowdar.gridhub>http://localhost:4444/wd/hub</crowdar.gridhub>
                 <crowdar.avd>samsung_galaxy_s7_9.0</crowdar.avd>
-                <crowdar.appLocation>/root/tmp/sample_apk/lippia.apk</crowdar.appLocation>
+                <crowdar.appLocation>/root/tmp/sample_apk/phptravels.apk</crowdar.appLocation>
                 <crowdar.deviceName>Android Emulator</crowdar.deviceName>
             </properties>
         </profile>

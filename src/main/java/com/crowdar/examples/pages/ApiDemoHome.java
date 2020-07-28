@@ -21,6 +21,7 @@ public class ApiDemoHome extends PageBaseMobile {
 
     private WebElement getMenuElement(String menu) {
         return getWebElement(By.xpath("//android.widget.TextView[@content-desc=" + "\"" + menu + "\"" + "]"));
+
     }
 
     public void clickMenuElement(String menu) {

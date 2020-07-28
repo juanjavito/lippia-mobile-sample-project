@@ -14,6 +14,7 @@ public class HomePage extends PageBaseMobile {
     public HomePage(RemoteWebDriver driver) {
         super(driver);
         this.url = "";
+
     }
 
     public void setPhoneNumber(String phoneNumber) {
